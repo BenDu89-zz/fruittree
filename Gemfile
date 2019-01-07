@@ -3,7 +3,7 @@ ruby '2.4.4'
 
 gem 'bootsnap', require: false
 gem 'jbuilder', '~> 2.0'
-gem 'pg', '~> 0.21'
+gem 'pg'
 gem 'puma'
 gem 'rails', '5.2.1.1'
 gem 'redis'
@@ -15,6 +15,7 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'devise'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
